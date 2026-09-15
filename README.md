@@ -37,6 +37,24 @@ elif pilih == "2":
         pb = input("MASUKKAN KATEGORI PRODUK BARU : ").lower()
         p[pb] = {}
         print(f"KATEGORI PRODUK {pb} BERHASIL DITAMBAHKAN")
+ini adalah kode untuk menambahkan kategori pada dictionary
+
+<img width="348" height="170" alt="terminal 2 sc4" src="https://github.com/user-attachments/assets/8ad1cd57-4f85-40bd-932f-b8fce9cbe143" />
+
+elif pilih == "3":
+
+        print("STOK BARANG")
+        print(f"{p}")
+        ph = input("MASUKKAN NAMA KATEGORI YANG INGIN DI HAPUS : ").lower()
+        if ph in p:
+            del p[ph]
+            print("="*60)
+            print(f"KATEGOIR {ph} BERHASIL DI HAPUS")
+ini adalah untuk menghapus kategori yang sudah ada
+
+<img width="718" height="223" alt="terminal 3 sc4" src="https://github.com/user-attachments/assets/0d22c483-d386-421e-81c3-a0dd46cfaed5" />
+
+
 
 
 
