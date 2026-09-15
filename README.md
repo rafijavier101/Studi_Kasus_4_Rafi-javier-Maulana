@@ -6,8 +6,7 @@
       "pangan":{"tempe": 5000, "tahu": 5000, "telur": 2500},
       "minum":{"teh": 5000, "kopi": 6000, "air galon": 10000}
       }    
-ini adalah kode untuk data awal / stok awal toko
-
+ini adalah kode dictionary untuk data awal / stok awal toko
 
 while True:
 
@@ -22,4 +21,22 @@ while True:
     pilih = input("Pilih antara [1-5] : ")
     print("="*60)
 ini adalah kode untuk menu utama
+
+<img width="346" height="153" alt="menu sc4" src="https://github.com/user-attachments/assets/658de28e-f431-4531-9611-137d6b576589" />
+
+if pilih == "1":
+
+        print("STOK BARANG")
+        print(f"{p}")
+ini adalah kode untuk menampilkan seluruh stok yang ada ditoko jika user memilih pilihan 1 pada menu
+
+<img width="645" height="182" alt="terminal 1 sc4" src="https://github.com/user-attachments/assets/0f0583bf-e5bd-42ae-88e6-930d3a0f2b94" />
+
+elif pilih == "2":
+
+        pb = input("MASUKKAN KATEGORI PRODUK BARU : ").lower()
+        p[pb] = {}
+        print(f"KATEGORI PRODUK {pb} BERHASIL DITAMBAHKAN")
+
+
 
