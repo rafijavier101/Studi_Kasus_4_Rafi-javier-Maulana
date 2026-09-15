@@ -8,6 +8,7 @@
       }    
 ini adalah kode untuk data awal / stok awal toko
 
+
 while True:
 
     print("="*60)
