@@ -52,7 +52,37 @@ elif pilih == "3":
             print(f"KATEGOIR {ph} BERHASIL DI HAPUS")
 ini adalah untuk menghapus kategori yang sudah ada
 
-<img width="718" height="223" alt="terminal 3 sc4" src="https://github.com/user-attachments/assets/0d22c483-d386-421e-81c3-a0dd46cfaed5" />
+<img width="790" height="209" alt="terminal 3sc4" src="https://github.com/user-attachments/assets/a9dd29b5-20b9-4ea1-95f5-f87e596d2b54" />
+
+ elif pilih == "4":
+ 
+        print("STOK BARANG")
+        print(f"{p}")
+        print("="*60)
+        pu = input("MASUKKAN NAMA KATEGORI YANG MAU DI UBAH : ").lower()
+        if pu in p:
+            np = input("MASUKKAN NAMA BARANG : ").lower()
+            try:
+                hp = int(input("Masukkan harga barang : "))
+                p[pu][np]= hp
+                print("DATA BERHASIL DI PERBARUI")
+            except ValueError:
+                print("HARGA HARUS BERUAP ANGKA")
+        else:
+            print("KATEGORI TIDAK DITEMUKAN")
+ini adalah kode untuk mengubah data yang ada di dalam kategori
+
+<img width="784" height="457" alt="terminal 4sc4" src="https://github.com/user-attachments/assets/8e20a78f-77be-483a-aa77-6b25772f4739" />
+
+ elif pilih == "5":
+ 
+        print("GOODBYE")
+        break
+ini adalah kode untuk mengakhiri program
+
+<img width="366" height="164" alt="terminal 5sc4" src="https://github.com/user-attachments/assets/7ba48638-4f9f-405a-9aca-b0f7ac7bbc9c" />
+
+
 
 
 
